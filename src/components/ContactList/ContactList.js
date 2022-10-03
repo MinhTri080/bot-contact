@@ -118,7 +118,7 @@ function ContactList() {
                 <div className='container'>
                     <div className='d-flex align-items-center '>
                         <h3 className='fw-boler'>Contact Manager</h3>
-                        <Link className='btn btn-primary btn-sm ms-2 ' to={'/contact/add'}>
+                        <Link className='btn btn-primary btn-sm ms-2 ' to={'bot-contact/contact/add'}>
                             <i className='fa fa-plus me-2'></i>
                             New
                         </Link>

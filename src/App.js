@@ -15,10 +15,11 @@ function App() {
  <Navbar/>
  
  <Routes>
-  <Route path='/contact/list' element={<ContactList/>}/>
-  <Route path='/contact/add' element={<AddContact/>}/>
-  <Route path='/contact/edit' element={<EditContact/>}/>
-  <Route path='/contact/view' element={<ViewContact/>}/>
+  <Route path='bot-contact/contact' element={<ContactList/>}/>
+  <Route path='bot-contact/contact/list' element={<ContactList/>}/>
+  <Route path='bot-contact/contact/add' element={<AddContact/>}/>
+  <Route path='bot-contact/contact/edit' element={<EditContact/>}/>
+  <Route path='bot-contact/contact/view' element={<ViewContact/>}/>
  </Routes>
  </>
   );
