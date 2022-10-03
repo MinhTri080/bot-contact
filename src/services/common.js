@@ -1,0 +1,1 @@
+export const CONTACT_URL= 'https://63369f658aa85b7c5d2fde42.mockapi.io/bot'
